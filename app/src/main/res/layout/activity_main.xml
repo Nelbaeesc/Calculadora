@@ -4,36 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="#000000"
+    android:background="#FDFDFD"
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="411dp"
-        android:layout_height="433dp"
-        android:layout_marginTop="296dp"
+        android:layout_width="409dp"
+        android:layout_height="651dp"
         android:layout_marginEnd="8dp"
-        android:background="#000000"
+        android:background="#FFFFFF"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        tools:layout_editor_absoluteY="81dp">
 
-        <EditText
-            android:id="@+id/editTextNumber2"
-            android:layout_width="379dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:backgroundTint="#F8F3F3"
-            android:drawableTint="#F4EFEF"
-            android:ems="10"
-            android:foregroundTint="#F1EDED"
-            android:inputType="number"
-            android:textColor="#EDECEC"
-            android:textColorHighlight="#F1EEEE"
-            android:textColorHint="#F4EFEF"
-            android:textColorLink="#FBF6F6" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
+            android:text="TextView" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -273,7 +262,7 @@
             android:layout_marginLeft="10dp"
             android:foregroundTint="#F3EDED"
             android:text="Mostrar opciones a deshabilitar"
-            android:textColor="#F8F7F7" />
+            android:textColor="#050505" />
 
         <LinearLayout
             android:layout_width="409dp"
@@ -288,7 +277,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Suma"
-                android:textColor="#F8F7F7" />
+                android:textColor="#050505" />
 
             <RadioButton
                 android:id="@+id/radioButtonResta"
@@ -296,7 +285,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Resta"
-                android:textColor="#F8F7F7" />
+                android:textColor="#050505" />
 
             <RadioButton
                 android:id="@+id/radioButtonMultiplicar"
@@ -304,7 +293,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Multiplicacion"
-                android:textColor="#F8F7F7" />
+                android:textColor="#050505" />
 
             <RadioButton
                 android:id="@+id/radioButtonDivision"
@@ -312,7 +301,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Division"
-                android:textColor="#F8F7F7" />
+                android:textColor="#050505" />
         </LinearLayout>
 
     </LinearLayout>
